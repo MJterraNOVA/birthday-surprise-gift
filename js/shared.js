@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     : 0;
 
   // 4. Inject Progress Indicator (Chapters 1 to 6)
-  if (mainJourney && chapter >= 1 && chapter <= 6) {
+  if (mainJourney && chapter >= 1 && chapter <= 6 && chapter !== 3) {
     const progressPill = document.createElement("div");
     progressPill.className = "progress-indicator";
 
